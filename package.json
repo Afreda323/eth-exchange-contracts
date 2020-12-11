@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "deploy": "hardhat run scripts/deploy.ts",
+    "test": "hardhat test"
   },
   "author": "Anthony Freda <anthonyfreda323@gmail.com>",
   "license": "ISC",
